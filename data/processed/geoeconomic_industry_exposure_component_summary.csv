@@ -1,0 +1,7 @@
+component,component_label,weight,score,signal,weighted_contribution
+manufacturing_exposure_score,Manufacturing Exposure,0.25,100.0,High Risk,25.0
+logistics_transportation_exposure_score,Logistics / Transportation Exposure,0.2,100.0,High Risk,20.0
+construction_development_exposure_score,Construction / Development Exposure,0.2,100.0,High Risk,20.0
+retail_local_demand_exposure_score,Retail / Local Demand Exposure,0.15,100.0,High Risk,15.0
+trade_sensitive_growth_signal_score,Trade-Sensitive Growth Signal,0.1,90.0,High Risk,9.0
+source_confidence_score,Source Confidence,0.1,95.0,High Risk,9.5

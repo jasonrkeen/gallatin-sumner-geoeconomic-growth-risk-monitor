@@ -1,0 +1,6 @@
+component,component_label,weight,score,signal,weighted_contribution
+home_value_to_income_score,Home Value to Income,0.3,58.83046699372101,Elevated Risk,17.649140098116302
+rent_to_income_score,Rent to Income,0.2,15.693513914574586,Low Risk,3.138702782914917
+renter_cost_burden_score,Renter Cost Burden,0.2,88.59709968300069,High Risk,17.71941993660014
+owner_cost_burden_score,Owner Cost Burden,0.15,5.938380303929871,Low Risk,0.8907570455894807
+mortgage_rate_pressure_score,Mortgage Rate Pressure,0.15,67.2,Elevated Risk,10.08

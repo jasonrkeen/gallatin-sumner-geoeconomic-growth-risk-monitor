@@ -1,0 +1,2 @@
+date,year,sumner_real_gdp,sumner_real_gdp_yoy_pct,sumner_unemployment_rate,real_gdp_growth_score,labor_market_tightness_score,historical_growth_pressure_score,local_growth_signal_score,development_activity_signal_score,growth_pressure_score,growth_pressure_signal,growth_note_count,development_note_count,unique_growth_sources,unique_development_sources,local_source_signal_confidence,data_quality_flag
+2026-12-31,2026,,,3.1,,89.85507246376811,89.85507246376811,80.0,85.0,85.38866930171278,High Risk,20,16,9,8,Strong Qualitative Signal,Partial Economic Data

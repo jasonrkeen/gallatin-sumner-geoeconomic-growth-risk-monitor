@@ -1,0 +1,6 @@
+component,weight,component_score,weighted_contribution,evidence_confidence,evidence_note_count,unique_source_count,related_channel_count,keyword_hit_count,source_type_multiplier,score_cap
+utility_coordination,0.2,55.0,11.0,Moderate Evidence,10,6,6,19,1.095,55.0
+public_works_capacity,0.2,55.0,11.0,Moderate Evidence,5,3,4,7,1.13,55.0
+stormwater_flood_mitigation,0.2,55.0,11.0,Moderate Evidence,2,2,2,6,1.15,55.0
+public_safety_response,0.2,55.0,11.0,Moderate Evidence,3,2,1,5,1.05,55.0
+capital_project_execution,0.2,55.0,11.0,Moderate Evidence,8,5,5,12,1.075,55.0

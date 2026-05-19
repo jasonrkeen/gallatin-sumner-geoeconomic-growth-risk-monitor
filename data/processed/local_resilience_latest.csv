@@ -1,0 +1,2 @@
+date,local_resilience_offset,local_resilience_signal,local_resilience_confidence,resilience_components_scored,average_component_score,strong_or_better_components,utility_coordination_score,public_works_capacity_score,stormwater_flood_mitigation_score,public_safety_response_score,capital_project_execution_score
+2026-05-19,55.0,Strong Resilience Offset,Strong Evidence,5,55.0,0,55.0,55.0,55.0,55.0,55.0

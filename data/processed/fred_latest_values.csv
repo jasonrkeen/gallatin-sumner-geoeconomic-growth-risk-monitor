@@ -1,0 +1,12 @@
+latest_date,series_name,series_id,first_observation_date,latest_observation_date,observation_count,latest_value
+2026-04-01,cement_ppi,PCU327310327310,1965-01-01,2026-04-01,736,355.048
+2026-04-01,construction_materials_ppi,WPUSI012011,1947-01-01,2026-04-01,952,359.743
+2026-05-18,diesel_price,GASDESW,1994-03-21,2026-05-18,1679,5.596
+2026-04-01,federal_funds_rate,FEDFUNDS,1954-07-01,2026-04-01,862,3.64
+2026-04-01,lumber_ppi,WPU081,1926-01-01,2026-04-01,1204,280.103
+2026-05-18,retail_gasoline,GASREGW,1990-08-20,2026-05-18,1860,4.49
+2026-04-01,steel_mill_products_ppi,WPU1017,1939-01-01,2026-04-01,1048,344.202
+2024-01-01,sumner_real_gdp,REALGDPALL47165,2001-01-01,2024-01-01,24,9232461.0
+2026-02-01,sumner_unemployment_rate,TNSUMN5URN,1990-01-01,2026-02-01,433,3.1
+2026-05-14,thirty_year_mortgage_rate,MORTGAGE30US,1971-04-02,2026-05-14,2877,6.36
+2026-05-11,wti_crude_oil,DCOILWTICO,1986-01-02,2026-05-11,10158,101.56

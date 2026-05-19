@@ -1,0 +1,6 @@
+component,component_label,weight,score,signal,weighted_contribution
+mean_commute_time_pressure_score,Mean Commute Time Pressure,0.3,77.6511917341787,High Risk,23.295357520253607
+long_commute_share_score,Long Commute Share,0.2,65.51966721722641,Elevated Risk,13.103933443445284
+vehicle_dependence_score,Vehicle Dependence,0.2,39.884213677396694,Moderate Risk,7.976842735479339
+local_infrastructure_note_signal_score,Local Infrastructure Note Signal,0.15,85.0,High Risk,12.75
+public_works_road_pressure_score,Public Works / Road Pressure,0.15,85.0,High Risk,12.75

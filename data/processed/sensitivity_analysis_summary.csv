@@ -1,0 +1,2 @@
+sensitivity_case_count,min_adjusted_risk_score,max_adjusted_risk_score,mean_adjusted_risk_score,adjusted_risk_score_range,unique_signal_count,sensitivity_stability,lowest_risk_case,highest_risk_case
+6,55.35638904965961,63.49913984601706,60.02376137153266,8.142750796357447,1,Stable,Construction-Shock-Heavy Case,Infrastructure / Friction Heavy Case

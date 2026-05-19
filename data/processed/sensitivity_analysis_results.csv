@@ -1,0 +1,7 @@
+case_key,case_name,case_description,sensitivity_composite_risk_score,local_resilience_offset,resilience_credit_applied,sensitivity_adjusted_risk_score,sensitivity_adjusted_signal
+baseline,Baseline Weights,Uses the core project weighting framework.,69.13628443151912,55.0,8.25,60.886284431519115,Elevated Risk
+growth_heavy,Growth-Heavy Case,Places more emphasis on local growth pressure and infrastructure strain.,71.07018127511782,55.0,8.25,62.82018127511782,Elevated Risk
+construction_shock_heavy,Construction-Shock-Heavy Case,"Places more emphasis on materials, fuel, energy, and financing exposure.",63.60638904965961,55.0,8.25,55.35638904965961,Elevated Risk
+infrastructure_friction_heavy,Infrastructure / Friction Heavy Case,Places more emphasis on infrastructure strain and development friction.,71.74913984601706,55.0,8.25,63.49913984601706,Elevated Risk
+household_vulnerability_heavy,Household-Vulnerability-Heavy Case,Places more emphasis on housing affordability and household vulnerability.,64.95195894985572,55.0,8.25,56.70195894985572,Elevated Risk
+equal_weight,Equal-Weight Case,Assigns equal weight to every composite risk component.,69.1286146770266,55.0,8.25,60.878614677026604,Elevated Risk

@@ -1,0 +1,5 @@
+component,weight,component_score,weighted_contribution,data_quality_flag,local_source_signal_confidence
+real_gdp_growth_score,0.45,,,Partial Economic Data,Strong Qualitative Signal
+labor_market_tightness_score,0.25,89.85507246376811,22.463768115942027,Partial Economic Data,Strong Qualitative Signal
+local_growth_signal_score,0.2,80.0,16.0,Partial Economic Data,Strong Qualitative Signal
+development_activity_signal_score,0.1,85.0,8.5,Partial Economic Data,Strong Qualitative Signal

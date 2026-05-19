@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Large or temporary raw files
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.zip
+
+# Optional: keep processed outputs if you want the repo reproducible with sample results
+# data/processed/
+
+# Keep final report/carousel if sharing as portfolio assets
+# outputs/reports/*.pdf

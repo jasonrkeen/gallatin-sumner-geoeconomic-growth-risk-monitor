@@ -1,0 +1,10 @@
+component,label,category,weight,score_method,raw_latest_value,latest_yoy_pct,component_score,weighted_contribution
+construction_materials_ppi,Construction Materials PPI,materials,0.2,yoy_change,359.743,4.559432185458179,30.610526427315037,6.122105285463007
+lumber_ppi,Lumber PPI,materials,0.1,yoy_change,280.103,3.857633880733702,27.90828699116198,2.790828699116198
+cement_ppi,Cement PPI,materials,0.1,yoy_change,355.048,-0.49939747218562536,20.377383326114767,2.0377383326114766
+steel_mill_products_ppi,Steel Mill Products PPI,materials,0.1,yoy_change,344.202,5.343343239181864,23.92193410660039,2.392193410660039
+diesel_price,Diesel Price,fuel_energy,0.15,yoy_change,5.596,60.48178950387153,88.38614600270974,13.25792190040646
+retail_gasoline,Retail Gasoline Price,fuel_energy,0.1,yoy_change,4.49,42.08860759493671,81.77155010251681,8.177155010251681
+wti_crude_oil,WTI Crude Oil,fuel_energy,0.1,yoy_change,101.56,65.24568825252197,45.02664221759969,4.502664221759969
+thirty_year_mortgage_rate,30-Year Mortgage Rate,financing,0.15,level,6.36,-7.692307692307687,23.398858592263792,3.509828788839569
+federal_funds_rate,Federal Funds Rate,financing,0.1,level,3.64,-15.935334872979212,18.84514435695538,1.8845144356955381

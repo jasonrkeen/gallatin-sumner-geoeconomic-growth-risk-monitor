@@ -1,0 +1,6 @@
+component,component_label,weight,score,signal,weighted_contribution
+zoning_code_update_signal_score,Zoning / Code Update Signal,0.3,70.6,Elevated Risk,21.179999999999996
+planning_permitting_signal_score,Planning / Permitting Signal,0.25,90.0,High Risk,22.5
+development_pipeline_pressure_score,Development Pipeline Pressure,0.2,90.0,High Risk,18.0
+public_notice_agenda_activity_score,Public Notice / Agenda Activity,0.15,90.0,High Risk,13.5
+source_confidence_score,Source Confidence,0.1,90.0,High Risk,9.0

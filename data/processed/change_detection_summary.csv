@@ -1,0 +1,21 @@
+metric,current_value,previous_value,delta,change_direction,change_materiality,current_signal,summary_text,run_timestamp
+composite_risk_score,69.13628443151912,69.13628443151912,0.0,Stable,Minimal,Elevated Risk,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+adjusted_geoeconomic_growth_risk_score,60.88628443151912,60.88628443151912,0.0,Stable,Minimal,Elevated Risk,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+growth_pressure_score,85.38866930171278,85.38866930171278,0.0,Stable,Minimal,High Risk,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+housing_affordability_pressure_score,49.47801986322084,49.47801986322084,0.0,Stable,Minimal,Moderate Risk,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+construction_shock_score,40.61359098618539,40.61359098618539,0.0,Stable,Minimal,Moderate Risk,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+fuel_energy_shock_score,74.10783180690888,74.10783180690888,0.0,Stable,Minimal,N/A,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+materials_shock_score,26.685731455701443,26.685731455701443,0.0,Stable,Minimal,N/A,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+financing_shock_score,21.57737289814043,21.57737289814043,0.0,Stable,Minimal,N/A,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+infrastructure_strain_score,69.87613369917823,69.87613369917823,0.0,Stable,Minimal,Elevated Risk,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+development_friction_score,84.17999999999999,84.17999999999999,0.0,Stable,Minimal,High Risk,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+geoeconomic_industry_exposure_score,98.5,98.5,0.0,Stable,Minimal,High Risk,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+household_vulnerability_score,55.863888888888894,55.863888888888894,0.0,Stable,Minimal,Elevated Risk,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+local_resilience_offset,55.0,55.0,0.0,Stable,Minimal,Strong Resilience Offset,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+resilience_credit_applied,8.25,8.25,0.0,Stable,Minimal,8.25,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+highest_risk_scenario_score,64.66462285065671,64.66462285065671,0.0,Stable,Minimal,Elevated Risk,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+placeholder_share,0.0,0.0,0.0,Stable,Minimal,0.0,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+live_components_used,7.0,7.0,0.0,Stable,Minimal,7.0,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+placeholder_components_used,0.0,0.0,0.0,Stable,Minimal,0.0,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+highest_risk_scenario,Overheated Growth,Overheated Growth,,Stable,Minimal,Elevated Risk,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261
+model_maturity_level,Fully Data-Driven,Fully Data-Driven,,Stable,Minimal,Data-Driven Components Available,No material changes were detected versus the prior run.,2026-05-19T14:04:51.865261

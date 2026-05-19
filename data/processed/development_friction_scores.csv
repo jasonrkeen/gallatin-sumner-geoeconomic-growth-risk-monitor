@@ -1,0 +1,2 @@
+date,development_friction_score,development_friction_signal,source_confidence_score,source_confidence_label,total_relevant_notes,unique_sources,source_type_count,zoning_code_note_count,planning_permitting_note_count,development_pipeline_note_count,public_notice_agenda_note_count,data_quality_flag,zoning_code_update_signal_score,planning_permitting_signal_score,development_pipeline_pressure_score,public_notice_agenda_activity_score
+2026-05-19,84.17999999999999,High Risk,90.0,Very Strong Source Signal,31,9,7,3,5,19,4,Very Strong Source Signal,70.6,90.0,90.0,90.0

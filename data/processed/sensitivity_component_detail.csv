@@ -1,0 +1,43 @@
+component,sensitivity_weight,score,signal,weighted_contribution,is_placeholder,case_key,case_name
+growth_pressure,0.2,85.38866930171278,High Risk,17.07773386034256,False,baseline,Baseline Weights
+housing_affordability_pressure,0.15,49.47801986322084,Moderate Risk,7.4217029794831255,False,baseline,Baseline Weights
+construction_shock_exposure,0.15,40.61359098618539,Moderate Risk,6.092038647927809,False,baseline,Baseline Weights
+infrastructure_strain,0.15,69.87613369917823,Elevated Risk,10.481420054876734,False,baseline,Baseline Weights
+development_friction,0.15,84.17999999999999,High Risk,12.626999999999999,False,baseline,Baseline Weights
+geoeconomic_industry_exposure,0.1,98.5,High Risk,9.850000000000001,False,baseline,Baseline Weights
+household_vulnerability,0.1,55.863888888888894,Elevated Risk,5.58638888888889,False,baseline,Baseline Weights
+growth_pressure,0.3,85.38866930171278,High Risk,25.616600790513832,False,growth_heavy,Growth-Heavy Case
+housing_affordability_pressure,0.15,49.47801986322084,Moderate Risk,7.4217029794831255,False,growth_heavy,Growth-Heavy Case
+construction_shock_exposure,0.1,40.61359098618539,Moderate Risk,4.0613590986185395,False,growth_heavy,Growth-Heavy Case
+infrastructure_strain,0.2,69.87613369917823,Elevated Risk,13.975226739835646,False,growth_heavy,Growth-Heavy Case
+development_friction,0.1,84.17999999999999,High Risk,8.418,False,growth_heavy,Growth-Heavy Case
+geoeconomic_industry_exposure,0.075,98.5,High Risk,7.387499999999999,False,growth_heavy,Growth-Heavy Case
+household_vulnerability,0.075,55.863888888888894,Elevated Risk,4.189791666666667,False,growth_heavy,Growth-Heavy Case
+growth_pressure,0.15,85.38866930171278,High Risk,12.808300395256916,False,construction_shock_heavy,Construction-Shock-Heavy Case
+housing_affordability_pressure,0.15,49.47801986322084,Moderate Risk,7.4217029794831255,False,construction_shock_heavy,Construction-Shock-Heavy Case
+construction_shock_exposure,0.3,40.61359098618539,Moderate Risk,12.184077295855618,False,construction_shock_heavy,Construction-Shock-Heavy Case
+infrastructure_strain,0.125,69.87613369917823,Elevated Risk,8.734516712397278,False,construction_shock_heavy,Construction-Shock-Heavy Case
+development_friction,0.1,84.17999999999999,High Risk,8.418,False,construction_shock_heavy,Construction-Shock-Heavy Case
+geoeconomic_industry_exposure,0.1,98.5,High Risk,9.850000000000001,False,construction_shock_heavy,Construction-Shock-Heavy Case
+household_vulnerability,0.075,55.863888888888894,Elevated Risk,4.189791666666667,False,construction_shock_heavy,Construction-Shock-Heavy Case
+growth_pressure,0.15,85.38866930171278,High Risk,12.808300395256916,False,infrastructure_friction_heavy,Infrastructure / Friction Heavy Case
+housing_affordability_pressure,0.125,49.47801986322084,Moderate Risk,6.184752482902605,False,infrastructure_friction_heavy,Infrastructure / Friction Heavy Case
+construction_shock_exposure,0.1,40.61359098618539,Moderate Risk,4.0613590986185395,False,infrastructure_friction_heavy,Infrastructure / Friction Heavy Case
+infrastructure_strain,0.25,69.87613369917823,Elevated Risk,17.469033424794556,False,infrastructure_friction_heavy,Infrastructure / Friction Heavy Case
+development_friction,0.25,84.17999999999999,High Risk,21.044999999999998,False,infrastructure_friction_heavy,Infrastructure / Friction Heavy Case
+geoeconomic_industry_exposure,0.075,98.5,High Risk,7.387499999999999,False,infrastructure_friction_heavy,Infrastructure / Friction Heavy Case
+household_vulnerability,0.05,55.863888888888894,Elevated Risk,2.793194444444445,False,infrastructure_friction_heavy,Infrastructure / Friction Heavy Case
+growth_pressure,0.15,85.38866930171278,High Risk,12.808300395256916,False,household_vulnerability_heavy,Household-Vulnerability-Heavy Case
+housing_affordability_pressure,0.25,49.47801986322084,Moderate Risk,12.36950496580521,False,household_vulnerability_heavy,Household-Vulnerability-Heavy Case
+construction_shock_exposure,0.1,40.61359098618539,Moderate Risk,4.0613590986185395,False,household_vulnerability_heavy,Household-Vulnerability-Heavy Case
+infrastructure_strain,0.125,69.87613369917823,Elevated Risk,8.734516712397278,False,household_vulnerability_heavy,Household-Vulnerability-Heavy Case
+development_friction,0.1,84.17999999999999,High Risk,8.418,False,household_vulnerability_heavy,Household-Vulnerability-Heavy Case
+geoeconomic_industry_exposure,0.075,98.5,High Risk,7.387499999999999,False,household_vulnerability_heavy,Household-Vulnerability-Heavy Case
+household_vulnerability,0.2,55.863888888888894,Elevated Risk,11.17277777777778,False,household_vulnerability_heavy,Household-Vulnerability-Heavy Case
+growth_pressure,0.14285714285714285,85.38866930171278,High Risk,12.198381328816112,False,equal_weight,Equal-Weight Case
+housing_affordability_pressure,0.14285714285714285,49.47801986322084,Moderate Risk,7.06828855188869,False,equal_weight,Equal-Weight Case
+construction_shock_exposure,0.14285714285714285,40.61359098618539,Moderate Risk,5.801941569455056,False,equal_weight,Equal-Weight Case
+infrastructure_strain,0.14285714285714285,69.87613369917823,Elevated Risk,9.982304814168318,False,equal_weight,Equal-Weight Case
+development_friction,0.14285714285714285,84.17999999999999,High Risk,12.025714285714283,False,equal_weight,Equal-Weight Case
+geoeconomic_industry_exposure,0.14285714285714285,98.5,High Risk,14.071428571428571,False,equal_weight,Equal-Weight Case
+household_vulnerability,0.14285714285714285,55.863888888888894,Elevated Risk,7.980555555555556,False,equal_weight,Equal-Weight Case
