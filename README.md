@@ -305,8 +305,8 @@ gallatin_sumner_geoeconomic_growth_risk/
 ## Installation
 
 ```powershell
-cd "C:\Users\keenj\OneDrive\Desktop\Research-1"
-cd gallatin_sumner_geoeconomic_growth_risk
+git clone https://github.com/jasonrkeen/gallatin-sumner-geoeconomic-growth-risk-monitor.git
+cd gallatin-sumner-geoeconomic-growth-risk-monitor
 
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
@@ -603,7 +603,7 @@ The most important insight is the interaction between local growth pressure, hou
 ## Author
 
 **Jason Keen**  
-keenjasonr@gmail.com
+[LinkedIn](https://www.linkedin.com/in/jason-keen-1887b4218)
 
 ## Disclaimer
 
