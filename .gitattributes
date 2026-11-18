@@ -1,0 +1,3 @@
+# Preserve binary artifacts exactly during Windows checkout.
+*.pdf -text
+*.png -text

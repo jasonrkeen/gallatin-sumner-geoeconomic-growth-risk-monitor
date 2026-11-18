@@ -3,6 +3,9 @@ __pycache__/
 *.pyc
 .venv/
 .env
+.pytest_cache/
+.ipynb_checkpoints/
+outputs/sample/
 
 # OS / editor
 .DS_Store

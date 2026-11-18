@@ -30,7 +30,9 @@ python -m src.growth_pressure
 python -m src.housing_affordability
 python -m src.infrastructure_strain
 ```
-- No automated tests exist yet; if adding them, use pytest under `tests/`.
+- Use Python 3.13.5 and the pinned requirements. Install `requirements-dev.txt` and run `python -m pytest -q`.
+- Safe downstream reproduction: `python sample_run.py`; do not run the live pipeline over published outputs for verification.
+- Preserve model/data/artifact hashes in `tests/preserved_files.json` unless changes are explicitly authorized.
 
 ## Conventions observed
 - Functions use type hints; keep annotating new code.

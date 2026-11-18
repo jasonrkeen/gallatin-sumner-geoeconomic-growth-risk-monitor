@@ -2,6 +2,37 @@
 
 A Python-based local economic intelligence project measuring growth pressure, housing affordability pressure, construction risk, infrastructure strain, development friction, geoeconomic industry exposure, household vulnerability, local resilience, and geoeconomic shock sensitivity in Gallatin and Sumner County, Tennessee.
 
+## Reproduction and validation status
+
+Evidence reviewed November 18, 2026. The [offline reproduction guide](docs/offline_reproduction.md) distinguishes verified downstream calculations from the live-data pipeline.
+
+| Item | Status and evidence |
+| --- | --- |
+| Environment | Python 3.13.5; exact runtime/transitive pins in [requirements.txt](requirements.txt) and separate [test dependencies](requirements-dev.txt). |
+| Sample inputs | Nine stored processed files associated with the May 19, 2026 saved run. Source dates differ. No new source collection, credentials, or random draws are involved. |
+| Safe reproduction | `python sample_run.py` recomputes the composite, four scenarios, and six sensitivity cases using existing model functions. It writes four CSVs, an interpretation note, and a hash manifest to a new `outputs/sample/` directory; existing destinations are refused. |
+| Verification | 25 tests pass locally, including hand-calculated cases, missing-data behavior, thresholds, offline repeat runs, preservation, and comparison with saved results at absolute tolerance `1e-10`. [Windows/Ubuntu workflow results](https://github.com/jasonrkeen/gallatin-sumner-geoeconomic-growth-risk-monitor/actions/workflows/tests.yml) provide run-specific evidence and artifacts. |
+| Preservation | [Recorded hashes](tests/preserved_files.json) protect all original source, tracked data, charts, PDF, and snapshots. Model logic, published results, and releases remain unchanged. |
+| Limits | This is downstream reproduction from processed inputs, not fresh source-data reproduction, current local risk assessment, or predictive validation. Existing maturity/live labels describe internal bookkeeping. Full live-pipeline and historical-report regeneration remain unverified. |
+
+## Deterministic offline sample
+
+After [installation](#installation), run:
+
+```bash
+python sample_run.py
+```
+
+Expected historical composite: **69.1363**; resilience credit: **8.25**; adjusted score: **60.8863 (Elevated Risk)**. No randomness is used, so no seed is required. Repeat into a new directory with `python sample_run.py --output-dir outputs/sample/repeat`. Relative paths resolve from the repository root. See the [artifact and provenance details](docs/offline_reproduction.md).
+
+Run automated checks:
+
+```bash
+python -m pip install -r requirements-dev.txt
+python -m pip check
+python -m pytest -q
+```
+
 ## Project Overview
 
 Gallatin and Sumner County are experiencing rapid growth across population, development, infrastructure, housing demand, and business investment. This project examines whether that growth could become more fragile if local development pressure intersects with broader geopolitical or macroeconomic shocks that raise construction costs, fuel prices, borrowing costs, logistics costs, housing costs, permitting friction, household stress, or supply-chain delays.
@@ -301,6 +332,8 @@ gallatin_sumner_geoeconomic_growth_risk/
 
 ## Installation
 
+Use Python 3.13.5. On Linux/macOS, activate the environment with `source .venv/bin/activate`.
+
 ```powershell
 git clone https://github.com/jasonrkeen/gallatin-sumner-geoeconomic-growth-risk-monitor.git
 cd gallatin-sumner-geoeconomic-growth-risk-monitor
@@ -314,14 +347,7 @@ pip install -r requirements.txt
 
 ## Requirements
 
-```text
-pandas>=2.0.0
-numpy>=1.24.0
-matplotlib>=3.7.0
-requests>=2.31.0
-python-dotenv>=1.0.0
-reportlab>=4.0.0
-```
+Install the exact versions in [requirements.txt](requirements.txt). The tested lock includes resolved transitive dependencies; [requirements-dev.txt](requirements-dev.txt) adds the pinned test tools.
 
 ## Environment Variables
 
@@ -346,7 +372,7 @@ outputs/snapshots/*.json
 
 ## Usage
 
-Run the full pipeline:
+For a live refresh, run the full pipeline in a separate working copy. It writes to fixed processed-data, chart, report, and snapshot paths and can replace saved results. The offline sample above avoids those writes:
 
 ```powershell
 python -m src.main

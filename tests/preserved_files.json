@@ -1,0 +1,309 @@
+{
+  "reference_commit": "69a9f662cd5b078ee9c6ee8d5365dd4f5f5ca601",
+  "files": {
+    "data/processed/change_detection_summary.csv": {
+      "text_lf": true,
+      "sha256": "2d3a44d554dcfee8ebf86c8167aeb08f4dee2370c2a4bdeb2ad8a3e135cff541"
+    },
+    "data/processed/composite_risk_component_summary.csv": {
+      "text_lf": true,
+      "sha256": "24b516fdee2d16ae772f03a50a1b4e041f53a7f138511ff11eb1e5661300fc04"
+    },
+    "data/processed/composite_risk_score.csv": {
+      "text_lf": true,
+      "sha256": "e455294f869ff34c0095511aecf076317a9f84c1518f2276b800db4b0b1f01c0"
+    },
+    "data/processed/composite_risk_score_latest.csv": {
+      "text_lf": true,
+      "sha256": "e455294f869ff34c0095511aecf076317a9f84c1518f2276b800db4b0b1f01c0"
+    },
+    "data/processed/construction_shock_category_summary.csv": {
+      "text_lf": true,
+      "sha256": "34f55d24c91985d2fcebc35f7b9615ad8af76ef23e39920712ef2161f050c16d"
+    },
+    "data/processed/construction_shock_component_summary.csv": {
+      "text_lf": true,
+      "sha256": "6b20e876d7e675c5d0f7300b1bb57528f1388fdb030640795a2fc0515d46052b"
+    },
+    "data/processed/construction_shock_latest.csv": {
+      "text_lf": true,
+      "sha256": "b5f94cc307ace9fdd47c72a7acaefed103dea5032fd2446eff7e72cb0110defa"
+    },
+    "data/processed/construction_shock_scores.csv": {
+      "text_lf": true,
+      "sha256": "af89ffa560007dc549dba69a3debad9487aacd4d25586adfb2a0484c99814583"
+    },
+    "data/processed/development_friction_component_summary.csv": {
+      "text_lf": true,
+      "sha256": "e1efd724cf379940560433323f7c909147bec325a490a37ee7016b977f323cea"
+    },
+    "data/processed/development_friction_latest.csv": {
+      "text_lf": true,
+      "sha256": "c62a5765580bb847fc6986feb51b73932791ffe90c4408c42ec7e36a86f27f33"
+    },
+    "data/processed/development_friction_scores.csv": {
+      "text_lf": true,
+      "sha256": "c62a5765580bb847fc6986feb51b73932791ffe90c4408c42ec7e36a86f27f33"
+    },
+    "data/processed/development_friction_source_summary.csv": {
+      "text_lf": true,
+      "sha256": "bd7eb0297626aed860a8aeba923bc6530d2f4fd45127f1fbef71d4beb4134849"
+    },
+    "data/processed/fred_latest_values.csv": {
+      "text_lf": true,
+      "sha256": "13a30d5a570a95147f1ba7d92786de98f0f31874b92ff91b88077fe87bf3a8df"
+    },
+    "data/processed/fred_series_long.csv": {
+      "text_lf": true,
+      "sha256": "6bb512398c9d8c27c3a1c4c47777914a00dae37bc39b3a0e6f4512b6c09d7626"
+    },
+    "data/processed/fred_series_wide.csv": {
+      "text_lf": true,
+      "sha256": "a7cba877313081bc0b0317a96b97d7071610be336a2b984d2145a15b92274c24"
+    },
+    "data/processed/geoeconomic_industry_exposure_component_summary.csv": {
+      "text_lf": true,
+      "sha256": "4e700234c949d9b1e1acdf9da9a81b65e5f0b4bde728fff3a3988af1ab877850"
+    },
+    "data/processed/geoeconomic_industry_exposure_latest.csv": {
+      "text_lf": true,
+      "sha256": "46a24fe03cf7bfbedb185ace286a58726f711eaa870eed45b922d41d5264735c"
+    },
+    "data/processed/geoeconomic_industry_exposure_scores.csv": {
+      "text_lf": true,
+      "sha256": "3abcd58aaf63060e899499db7736bb9e937970d895db8c506d68383f286d3e1e"
+    },
+    "data/processed/geoeconomic_industry_exposure_source_summary.csv": {
+      "text_lf": true,
+      "sha256": "c1c5b96455e92363370c07883d4a1f0e6e1694a202032f9cce6d36ffcb0b2803"
+    },
+    "data/processed/growth_pressure_component_summary.csv": {
+      "text_lf": true,
+      "sha256": "c4c94ef2fcdb44c1fe9d24ca99a107c162a6decfa55e4eab0cb9e3267d75dc57"
+    },
+    "data/processed/growth_pressure_latest.csv": {
+      "text_lf": true,
+      "sha256": "0ef955992afcfd4d09cba3fdb98fef83c599c963f6338aaed0fef80e2b203d7a"
+    },
+    "data/processed/growth_pressure_scores.csv": {
+      "text_lf": true,
+      "sha256": "e2413fef997cfef6660643eab2751722b0a2751a86cd504f329ad4ce92231e5e"
+    },
+    "data/processed/growth_pressure_source_summary.csv": {
+      "text_lf": true,
+      "sha256": "4fd218873e58ae5dff82e70d7b944aa6998947483cbf372f47665537d2595b0a"
+    },
+    "data/processed/household_vulnerability_component_summary.csv": {
+      "text_lf": true,
+      "sha256": "472df729737e9cffaf4729ef8c6f7edefe56359a131e9e50b78ca5b565b40e70"
+    },
+    "data/processed/household_vulnerability_latest.csv": {
+      "text_lf": true,
+      "sha256": "8de18a00a4a41b63f2932cd35ff3889eead2de9c6623c638b6a0aaa0ed839495"
+    },
+    "data/processed/household_vulnerability_scores.csv": {
+      "text_lf": true,
+      "sha256": "4c4038a3d5d40cbaf02ebae3130f7d09fd81c849fd6af2623e3987e0c84bbd6f"
+    },
+    "data/processed/household_vulnerability_source_summary.csv": {
+      "text_lf": true,
+      "sha256": "41e86ddd99d705b950b10072701e64a968c8643a3b545fef4dabad3188a90b3e"
+    },
+    "data/processed/housing_affordability_component_summary.csv": {
+      "text_lf": true,
+      "sha256": "2f4394d3e9fcaeb06ddaef76832ab32ebc2aac9f27afcafc760af60358634699"
+    },
+    "data/processed/housing_affordability_latest.csv": {
+      "text_lf": true,
+      "sha256": "8ac335649e2da969a4da7defe4d86b155b48bbb7e5bfae04f32db94da7344c38"
+    },
+    "data/processed/housing_affordability_scores.csv": {
+      "text_lf": true,
+      "sha256": "8a50d20aec404da34ce156e439281a3b3f2faf08bb7d41b971ef3ea0ead50e6a"
+    },
+    "data/processed/infrastructure_strain_component_summary.csv": {
+      "text_lf": true,
+      "sha256": "2ac328fcc1fa10076660559b50073b228460c3af2562f92ac58098b4831c90ed"
+    },
+    "data/processed/infrastructure_strain_latest.csv": {
+      "text_lf": true,
+      "sha256": "412336cd580fc2546e7f7481011c96798bcc167319f5c3b5926645429ecd1814"
+    },
+    "data/processed/infrastructure_strain_scores.csv": {
+      "text_lf": true,
+      "sha256": "8c90b119e832e054e7ea2a679a7de4ff47e71f0d802ac5129a8dae1094e4f221"
+    },
+    "data/processed/infrastructure_strain_source_summary.csv": {
+      "text_lf": true,
+      "sha256": "0184cd524f56646fc8b5f8e3634f6d183925bd446c60a6e7dddde5b694d4b493"
+    },
+    "data/processed/local_resilience_component_summary.csv": {
+      "text_lf": true,
+      "sha256": "813ea0399c2551996d284bb712671399ee00d84e04a952809012bada26d10f3d"
+    },
+    "data/processed/local_resilience_latest.csv": {
+      "text_lf": true,
+      "sha256": "ec982c625a2e6d21aac4dbcd3d7f3f47c1a9659705122bb209ffd02f426d225b"
+    },
+    "data/processed/local_resilience_scores.csv": {
+      "text_lf": true,
+      "sha256": "ec982c625a2e6d21aac4dbcd3d7f3f47c1a9659705122bb209ffd02f426d225b"
+    },
+    "data/processed/local_resilience_source_summary.csv": {
+      "text_lf": true,
+      "sha256": "7bdd39cbe1bb16a43b0669ccfe3ee07a8cd5559db327f2f7d454761a29826695"
+    },
+    "data/processed/risk_threshold_breach_summary.csv": {
+      "text_lf": true,
+      "sha256": "f72dfda53552d5979028d93da8b26e48216dd2b5d9d1f09fb607e9aaba83f412"
+    },
+    "data/processed/risk_threshold_breaches.csv": {
+      "text_lf": true,
+      "sha256": "1fe621cfc7367c06169943f6598e5cf2edd964c5e22ac6d73b687fb5b18f6436"
+    },
+    "data/processed/scenario_forecast_summary.csv": {
+      "text_lf": true,
+      "sha256": "45a9d0580e01bfd1c76cecd288876334f465aacba262fcdd5d7bce377105dc15"
+    },
+    "data/processed/scenario_forecasts.csv": {
+      "text_lf": true,
+      "sha256": "bd94bd3f219729c8dbfdc531a46a74af1a1e5f043414f854a8dfdf27fb31bc9d"
+    },
+    "data/processed/sensitivity_analysis_results.csv": {
+      "text_lf": true,
+      "sha256": "4dbb33a40f070ade91a2bf28f4cceb11b5e9577d69be5711ce93b0d6d08ff26e"
+    },
+    "data/processed/sensitivity_analysis_summary.csv": {
+      "text_lf": true,
+      "sha256": "d7d9944b55aeea5c1ae5c608fe6d899ccdbf4d6d478ba7d264c0aaed4e073d3a"
+    },
+    "data/processed/sensitivity_component_detail.csv": {
+      "text_lf": true,
+      "sha256": "d949f387a4ea7003b4d9813f832cf7213cdfdcdc0a7c571a3e2f0e8257c2b376"
+    },
+    "data/raw/local_source_notes.csv": {
+      "text_lf": true,
+      "sha256": "9246dc4946e54933927368b0fade55df7c03b961d1accceba5d17f4693eb392d"
+    },
+    "outputs/charts/composite_risk_score.png": {
+      "text_lf": false,
+      "sha256": "66544ceefe8cb4709c4b00810913782b59956a8142163824fb9b44a3f79a1775"
+    },
+    "outputs/charts/construction_shock_categories.png": {
+      "text_lf": false,
+      "sha256": "855b285a9f12bc10ca0a8b34a171fad7e2aff9174251c07adf6dbc0a6d17af9c"
+    },
+    "outputs/charts/construction_shock_trend.png": {
+      "text_lf": false,
+      "sha256": "bb146fc0ba7a26bd579d687f3d3aa441eb7e664622446ec834af0037638f8c70"
+    },
+    "outputs/charts/growth_pressure_trend.png": {
+      "text_lf": false,
+      "sha256": "dd401b98846d3adf7246daccfdc6d9e847f146104a4585e132b2bc4f550802b3"
+    },
+    "outputs/charts/local_resilience_offset.png": {
+      "text_lf": false,
+      "sha256": "f2d2191371034b246e76f9911468413eb365c195f07d1e40d765608e2b62b66c"
+    },
+    "outputs/charts/risk_threshold_breaches.png": {
+      "text_lf": false,
+      "sha256": "fb9a0167c1bf1d32710a4ffece7d67356def9f8df4611f7e8311f819ec4d15bc"
+    },
+    "outputs/charts/scenario_comparison.png": {
+      "text_lf": false,
+      "sha256": "837c350dc86365f79b254ff696e3cba4c3f24cae2816429064a9a35134487e48"
+    },
+    "outputs/charts/sensitivity_analysis.png": {
+      "text_lf": false,
+      "sha256": "4627c8fc5d5876d4ad91358b2696db083578a6a97375106798c0a8c28548d5ab"
+    },
+    "outputs/reports/gallatin_sumner_geoeconomic_growth_risk_report.pdf": {
+      "text_lf": false,
+      "sha256": "e04654918235fe33d7e0b389f97c90e2dccfd009e5016713f613898743c6d876"
+    },
+    "outputs/snapshots/latest_run_snapshot.json": {
+      "text_lf": true,
+      "sha256": "bd3886f589b810e929751c9588728c037da6170c7933296592dbc488b6a0b735"
+    },
+    "outputs/snapshots/previous_run_snapshot.json": {
+      "text_lf": true,
+      "sha256": "47602e0ade1fc975536f86455d0ab469dbe70e10b76907805e865d7befb05cb8"
+    },
+    "src/__init__.py": {
+      "text_lf": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "src/change_detection.py": {
+      "text_lf": true,
+      "sha256": "5bdf00816c19298d274598442ee0f99a9abfa4a5b1ddd0e2e8b7b5567d4daf8d"
+    },
+    "src/composite_score.py": {
+      "text_lf": true,
+      "sha256": "472bb6d47b0cf4db199344af87b29de2a0b94e6ea58130472c935061e3177339"
+    },
+    "src/config.py": {
+      "text_lf": true,
+      "sha256": "10cf7809704fa74a2f3013255ba479951903dc71177155aaf219d36094710dd0"
+    },
+    "src/construction_shock.py": {
+      "text_lf": true,
+      "sha256": "1350f79ab92d9c2acb2524cdc707486ea2369d03acec864eedaaf1c031f6f4b9"
+    },
+    "src/development_friction.py": {
+      "text_lf": true,
+      "sha256": "be6c48ac42b293b48be34ebb9c010f02da6cefd212015389154bf1d2e63984d1"
+    },
+    "src/fred_data.py": {
+      "text_lf": true,
+      "sha256": "aa43ee8919cdb2e8a0fd0b7a5e6a71816e19d4d634a09fad9a3a61587de9f439"
+    },
+    "src/geoeconomic_industry_exposure.py": {
+      "text_lf": true,
+      "sha256": "f2ee25c8682d9907f9b5a7806bd7d9ef485ee1caf2d0dcf9db74828ea6cace42"
+    },
+    "src/growth_pressure.py": {
+      "text_lf": true,
+      "sha256": "3c33c89ed7399e7ae7134349b9579c4aa187077fd569b8c3bbdab379a2c90d9e"
+    },
+    "src/household_vulnerability.py": {
+      "text_lf": true,
+      "sha256": "b098e267439611a648a11c88372baca11894b3dd10210cc317985a512d7fed4d"
+    },
+    "src/housing_affordability.py": {
+      "text_lf": true,
+      "sha256": "c15cbc56a47cea4dfd942392cee704072c17ae63564451e35bca647249ee9a51"
+    },
+    "src/infrastructure_strain.py": {
+      "text_lf": true,
+      "sha256": "cbb2014d88050d0af1e584374ceb48c1c7971ddf6121f814ddfa75edbef9b3d8"
+    },
+    "src/local_resilience.py": {
+      "text_lf": true,
+      "sha256": "796b8140ef18a5e13a7ae964fae546f24082a03684b3961ffbaad5f20269d889"
+    },
+    "src/main.py": {
+      "text_lf": true,
+      "sha256": "96f45373e0328661f7ffae9ff239cae57e6d0d9201b5b6a56070dba3de263a3e"
+    },
+    "src/report_generator.py": {
+      "text_lf": true,
+      "sha256": "47fe50d708673427fd1ed31a8f4e61e8921b0005a3cfcd996f5b6a475ffeda3b"
+    },
+    "src/risk_threshold_breaches.py": {
+      "text_lf": true,
+      "sha256": "785701af165f2860daed281c232120f253f403b18c7c61b96c9c69e7d0e841a1"
+    },
+    "src/scenario_forecast.py": {
+      "text_lf": true,
+      "sha256": "13bbcb62ede6996444e8a5c841256234f7b3ed0376f05a2d5c2587bb84dfc493"
+    },
+    "src/sensitivity_analysis.py": {
+      "text_lf": true,
+      "sha256": "482f2f21f0faab75f17a5fe9981cecf75427eea67126e2ad4ca24fb5af112780"
+    },
+    "src/visualization.py": {
+      "text_lf": true,
+      "sha256": "4b3e3b967f356660c9e1dfa04065b6b0a53668adce1224126950786e746d6968"
+    }
+  }
+}
