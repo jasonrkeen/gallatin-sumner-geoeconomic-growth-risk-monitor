@@ -20,18 +20,15 @@ Local growth risk is not only local. Gallatin and Sumner County may benefit from
 
 If geopolitical or macroeconomic shocks raise project costs, borrowing costs, fuel prices, or supply-chain delays at the same time that local planning and development systems are under pressure, the region's growth path may become more fragile.
 
-## Final Model Status
+## Model status and dated example
 
-The current version is fully data-driven across all seven composite risk components.
+The model combines public economic indicators with analyst-coded local source evidence across seven scoring components. The saved run reports no placeholder components; this describes input availability, not predictive validity.
 
-```text
-Model Maturity: Fully Data-Driven
-Live / Placeholder Components: 7 live / 0 placeholder
-Placeholder Share: 0.0%
-Data Quality Flag: Data-Driven Components Available
-```
+The headline results below correspond to the [saved run dated May 19, 2026](outputs/snapshots/latest_run_snapshot.json). They are historical model outputs, not a current assessment.
 
-Final headline results from the latest report:
+Weights, thresholds, qualitative scoring rules, and the resilience adjustment remain modeling assumptions. Scores are constructed monitoring indicators, not probabilities or official government risk ratings.
+
+Historical example results:
 
 ```text
 Composite Risk Score: 69.1
@@ -44,7 +41,7 @@ Highest-Risk Scenario Score: 64.7
 Highest-Risk Scenario Delta vs. Baseline: +3.8
 ```
 
-The adjusted score remains in the **Elevated Risk** band even after applying the resilience credit. This suggests that local resilience capacity helps reduce risk, but does not fully offset growth, infrastructure, housing, development, household, and industry-exposure pressure.
+In this saved run, the adjusted score remained in the **Elevated Risk** band after the model's assumed resilience credit. This describes the scoring framework's arithmetic, not measured evidence that resilience reduced real-world risk.
 
 ## Model Components
 
@@ -72,9 +69,9 @@ Composite Risk Score - Resilience Credit
 
 The capped credit prevents qualitative resilience evidence from overpowering high growth pressure, housing affordability pressure, construction shock exposure, infrastructure strain, development friction, industry exposure, or household vulnerability.
 
-## Latest Module Scores
+## Module scores from the May 19, 2026 run
 
-| Module | Latest Score | Signal / Context |
+| Module | Saved Score | Signal / Context |
 |---|---:|---|
 | Construction Shock Exposure | 40.6 | Moderate Risk; momentum rapidly rising |
 | Growth Pressure | 85.4 | High Risk; partial economic data |
@@ -102,11 +99,11 @@ A practical reading of the report should start with the **Adjusted Risk Score**,
 
 The model's most important insight is the interaction between local growth pressure, housing affordability, infrastructure strain, development friction, household vulnerability, industry exposure, and external cost shocks.
 
-The current result suggests that Gallatin and Sumner County may continue to benefit from growth, but that growth could become more difficult to absorb if construction costs, fuel prices, interest rates, housing costs, planning friction, or supply-chain disruptions rise while local development pressure remains high.
+The saved model example suggests that Gallatin and Sumner County may continue to benefit from growth, but that growth could become more difficult to absorb if construction costs, fuel prices, interest rates, housing costs, planning friction, or supply-chain disruptions rise while local development pressure remains high.
 
 The **Overheated Growth** scenario matters because it tests whether rapid development could outpace housing affordability, road capacity, utilities, planning capacity, and public-service absorption.
 
-## Current Live Modules
+## Implemented modules
 
 | Module | Description |
 |---|---|
@@ -120,7 +117,7 @@ The **Overheated Growth** scenario matters because it tests whether rapid develo
 | `geoeconomic_industry_exposure.py` | Scores exposure to manufacturing, logistics, construction, retail, and trade-sensitive growth channels using employment-exposure indicators and local source evidence |
 | `household_vulnerability.py` | Scores poverty, low-income exposure, unemployment, housing cost burden, commute burden, and local vulnerability source evidence |
 | `local_resilience.py` | Calculates a local resilience offset from public works, utility, stormwater, public safety, and capital project indicators |
-| `composite_score.py` | Combines all seven live components into composite and adjusted risk scores |
+| `composite_score.py` | Combines all seven populated components into composite and adjusted risk scores |
 | `scenario_forecast.py` | Runs scenario forecasts for growth and shock cases |
 | `change_detection.py` | Compares the current run with the prior saved snapshot |
 | `sensitivity_analysis.py` | Tests whether the model conclusion changes under alternative weighting assumptions |
@@ -140,13 +137,13 @@ The model evaluates four scenarios:
 | Geopolitical Construction Cost Shock | Global or macroeconomic shocks raise materials, fuel, financing, logistics, and project delay risk |
 | Growth Pause / Rezoning Constraint | Development approvals slow during zoning reform or planning review, easing some infrastructure pressure but increasing supply uncertainty |
 
-The latest scenario results identify **Overheated Growth** as the highest-risk scenario, with an adjusted scenario risk score of **64.7**.
+The May 19, 2026 scenario results identify **Overheated Growth** as the highest-risk scenario, with an adjusted scenario risk score of **64.7**.
 
 ## Sensitivity Analysis
 
 The sensitivity analysis tests whether the adjusted risk conclusion changes under alternative component-weighting assumptions.
 
-Latest sensitivity conclusion:
+Sensitivity results from the May 19, 2026 run:
 
 ```text
 Sensitivity Stability: Stable
@@ -157,13 +154,13 @@ Lowest-Risk Weighting Case: Construction-Shock-Heavy Case
 Highest-Risk Weighting Case: Infrastructure / Friction Heavy Case
 ```
 
-A stable sensitivity result means the model's broad risk conclusion is not overly dependent on one weighting framework.
+The risk band remained unchanged across the weighting cases tested. This does not establish stability under other weights, scoring rules, source revisions, or omitted variables.
 
 ## Risk Threshold Breach Monitor
 
 The breach monitor converts model outputs into an alert-style layer by tracking whether key growth, construction, scenario, resilience, and model-quality thresholds are active.
 
-Latest breach-monitor summary:
+Breach-monitor summary from the May 19, 2026 run:
 
 ```text
 Alert Level: Elevated Alert
@@ -537,11 +534,7 @@ The resilience score does not measure risk directly. It measures local capacity 
 
 ### Composite Risk Score
 
-The composite model now combines seven live components and no placeholder components:
-
-```text
-7 live / 0 placeholder
-```
+The saved run combines seven populated components and reports no placeholders. Some components use analyst-coded source notes; populated inputs do not establish current data freshness or empirical validity.
 
 Component scores are clearly identified in:
 
